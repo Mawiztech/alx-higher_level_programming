@@ -3,9 +3,9 @@ import random
 number = random.randint(-10, 10)
 
 if number > 0:
-    print('positive')
+    print(number, 'positive')
 elif number == 0:
-    print('Zero')
+    print(number, 'Zero')
 else :
-    print('negative')
+    print(number, 'negative')
     print('\n')
